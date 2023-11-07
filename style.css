@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+h1,
+h2,
+h3 {
+  font-family: "Tenor Sans", sans-serif; /* для заголовков*/
+}
+body {
+  background-color: #f8f3ef;
+  font-family: "Roboto", sans-serif;
+}
+
+/*header start*/
+header {
+  height: 100px;
+  width: 100%;
+}
+.header__flex {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-ambar {
+  width: 93px;
+  height: 93px;
+}
+.header__catalog {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.catalog__p {
+  color: #222;
+  font-size: 14px;
+  font-weight: 700;
+}
+.header__menu {
+  display: flex;
+  flex-direction: row;
+  gap: 44px;
+}
+.menu__link {
+  color: #222;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.menu__link:visited {
+  background-color: rgba(66, 66, 169, 0.468);
+}
+.header__tel {
+  color: #222;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.header__city {
+  color: #c0c0c0;
+  font-size: 12px;
+  font-weight: 500;
+}
+.header__btn {
+  width: 226px;
+  height: 45px;
+  border-radius: 5px;
+  background: var(--123, linear-gradient(90deg, #e2ae80 0.1%, #cc9872 99.91%));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f8f3ef;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+.header__btn:hover {
+  background: #bc916a;
+}
+/*header end*/
