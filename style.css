@@ -84,3 +84,122 @@ header {
   background: #bc916a;
 }
 /*header end*/
+
+/*welcome start*/
+.welcome {
+  margin-bottom: 100px;
+}
+.welcome-background {
+  background-image: url(img/Rectangle\ 583.svg);
+  position: relative;
+  margin-left: 85px;
+  height: 585px;
+  background-repeat: no-repeat;
+}
+.welcome__gradient {
+  position: absolute;
+}
+.welcome__flex {
+  top: 73px;
+  left: 400px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}
+.welcome__flex-h {
+  width: 492px;
+  color: #f8f3ef;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 125.5%;
+  text-transform: uppercase;
+}
+span {
+  color: #cf9b75;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 125.5%;
+  text-transform: uppercase;
+}
+.welcom__flex-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 46px;
+}
+.element__welcome_flex-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.welcome__logo {
+  width: 61px;
+  height: 60px;
+}
+.welcome__p {
+  width: 155px;
+  color: #f8f3ef;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+.welcome__flex-button {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+}
+.welcome__btn-brown {
+  width: 257px;
+  height: 58px;
+  border-radius: 5px;
+  background-color: #cf9b75;
+  border: none;
+  color: #f8f3ef;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+.welcome__btn-brown:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(175, 128, 94, 1) 33%,
+    rgba(226, 174, 128, 1) 66%
+  );
+}
+.welcome__btn-white {
+  width: 257px;
+  height: 58px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 2px solid var(--123, #e2ae80);
+  color: #f8f3ef;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+.welcome__circle {
+  top: 20px;
+  left: 622px;
+  position: absolute;
+  width: 161px;
+  height: 161px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.welcome__circle-h {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 103.6%;
+  background: var(--123, linear-gradient(90deg, #e2ae80 0.1%, #cc9872 99.91%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*welcome start*/
