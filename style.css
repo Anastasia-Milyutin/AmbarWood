@@ -5,7 +5,8 @@
 }
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: "Tenor Sans", sans-serif; /* для заголовков*/
 }
 body {
@@ -51,6 +52,9 @@ header {
   font-size: 14px;
   font-weight: 700;
   text-decoration: none;
+}
+.menu__link:hover {
+  color: #ce9a74;
 }
 .menu__link:visited {
   background-color: rgba(66, 66, 169, 0.468);
@@ -230,6 +234,7 @@ span {
   text-transform: uppercase;
 }
 .video__btn {
+  cursor: pointer;
   width: 217px;
   height: 64px;
   border-radius: 5px;
@@ -292,17 +297,18 @@ span {
 }
 /* video end*/
 
-
 /*questions start*/
 
 .questions__background-img {
   position: relative;
   background-image: url(img/Rectangle\ 606.png);
+  background-size: cover;
   width: 100%;
   height: 562px;
 }
 .questions__shadow {
   background-image: url(img/Rectangle\ 581.svg);
+  background-size: cover;
   position: absolute;
   width: 100%;
   height: 562px;
@@ -390,3 +396,116 @@ span {
   font-weight: 300;
 }
 /*questions end*/
+
+/*footer start*/
+footer {
+  width: 100%;
+  height: 392px;
+  border-top-right-radius: 60px;
+  border-top-left-radius: 60px;
+  background: #34353d;
+  padding: 90px 100px;
+}
+.section-footer__flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+.footer-block__logo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-logo {
+  margin-top: -20px;
+}
+.block-logo__p {
+  color: #f8f3ef;
+  font-size: 12px;
+  font-weight: 400;
+}
+.footer-block__menu,
+.footer-block__information,
+.footer-bock__contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.menu__h {
+  color: #f8f3ef;
+  font-size: 16px;
+  font-weight: 500;
+}
+.block__menu-flex,
+.block__information-flex,
+.block__contacts-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer__menu-a {
+  color: #99999d;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.footer__menu-a:hover {
+  color: #ce9a74;
+}
+.block-contacts__logo-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+/*footer end*/
+
+/*cooperation start*/
+.cooperation__background-img {
+  background-repeat: no-repeat;
+  background-image: url(img/Rectangle\ 580-2.png);
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 562px;
+}
+.cooperation__shadow {
+  position: absolute;
+  background-image: url(img/Rectangle\ 58.svg);
+  background-size: cover;
+  width: 100%;
+  height: 562px;
+}
+.cooperation__flex-block {
+}
+.questions__block-text {
+}
+.questions__h {
+}
+.questions__p {
+}
+.cooperation__p {
+}
+.questions__flex-buttons {
+}
+.flex-buttons__form-one {
+}
+.form-one-p {
+}
+.form-one-input {
+}
+.flex-buttons__form-two {
+}
+.form-two-p {
+}
+.form-two-input {
+}
+.header__btn {
+}
+.flex-buttons_btn {
+}
+.questions__flex-block_p {
+}
+/*cooperation end*/
