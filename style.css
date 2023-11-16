@@ -210,7 +210,7 @@ span {
 
 /* video start*/
 .video {
-  margin-top: 70px;
+  margin-top: 120px;
   margin-bottom: 30px;
 }
 .video__flex-text {
@@ -643,3 +643,118 @@ footer {
   position: relative;
 }
 /*categories end*/
+
+/*projects start*/
+
+.block-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 11px;
+}
+.froze-btn {
+  width: 224px;
+  height: 64px;
+  border-radius: 5px;
+  border: 1px solid #222;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #222;
+  font-size: 16px;
+  font-weight: 500;
+}
+.froze-btn:hover {
+  border: 1px solid #d8a47a;
+}
+.block__slider {
+  width: 100%;
+}
+.slider__flex-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.slider__img {
+  border-radius: 10%;
+  position: relative;
+  width: 585px;
+  height: 435px;
+}
+.img-shadow {
+  position: absolute;
+  margin-top: -440px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+.slider__block-text {
+  margin-left: 30px;
+  margin-top: -130px;
+  position: absolute;
+}
+.slider__p {
+  color: #f8f3ef;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.slider__a {
+  margin-bottom: 2px;
+  border-bottom: 1px solid #cf9b74;
+  color: #cf9b74;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration-line: underline;
+  text-decoration: none;
+}
+
+.block__slider-arrow-flex {
+  width: 100%;
+  margin-top: 30px;
+}
+.block__slider-arrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+}
+.slider-arrow-btn-left,
+.slider-arrow-btn-right {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background-color: #e2ae80;
+  border-radius: 50%;
+  border: none;
+}
+.slider-arrow-btn-left:hover,
+.slider-arrow-btn-right:hover {
+  background-color: #b08763;
+}
+.slider-arrow-btn-left:active,
+.slider-arrow-btn-right:active {
+  background-color: #c0c0c0;
+}
+
+.dots-block {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.slider__dots {
+  width: 11px;
+  height: 11px;
+  background-color: transparent;
+  border: 1px solid #cdcdcd;
+  border-radius: 50%;
+}
+.slider__dots-active {
+  background-color: #e2ae80;
+}
+/*projects end*/
