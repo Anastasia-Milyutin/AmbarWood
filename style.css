@@ -922,3 +922,20 @@ footer {
   font-weight: 300;
 }
 /*map end*/
+@media (max-width: 1451px) {
+  .welcome-background{
+    margin-left: 45px;
+  }
+  .block-video__shadow {
+    margin-left: 125px;
+  }
+
+}
+@media (max-width: 1401px) {
+  .welcome-background {
+    margin-left: 25px;
+}
+.block-video__shadow {
+  margin-left: 100px;
+}
+}
