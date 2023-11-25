@@ -452,3 +452,249 @@ footer {
 }
 
 /*footer end*/
+@media (max-width: 1366px) {
+  .welcome-img {
+    width: 900px;
+  }
+  .header__catalog,
+  .header__menu,
+  .header__btn {
+    display: none;
+  }
+  .flex-buttons_btn {
+    display: block;
+  }
+  .welcome-img-shadow {
+    width: 900px;
+  }
+  .welcome-h {
+    font-size: 30px;
+  }
+  .welcome-text-btn {
+    margin-left: -500px;
+    margin-top: -190px;
+  }
+}
+@media (max-width: 1152px) {
+  .questions__flex-buttons {
+    gap: 0px;
+  }
+  .menu-icon {
+    display: block;
+    width: 40px;
+    height: 30px;
+    position: relative;
+    border: none;
+    background-color: transparent;
+  }
+  .menu-icon__line {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #2e2f2e;
+  }
+  .menu-icon::after,
+  .menu-icon::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #2e2f2e;
+    position: absolute;
+    left: 0;
+  }
+  .menu-icon::after {
+    bottom: 0;
+    transition: transform 0.2s, bottom 0.2s 0.2s;
+  }
+  .menu-icon::before {
+    top: 0;
+    transition: transform 0.2s, top 0.2s 0.2s;
+  }
+
+  .menu__mobil {
+    display: none;
+    position: absolute;
+    top: 99px;
+    right: 0;
+    z-index: 100;
+    width: 389px;
+    height: 669px;
+    background: #f8f3ef;
+  }
+  .menu__mobil-active {
+    display: block;
+  }
+  .mobil-block-flex {
+    padding: 30px 30px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .mobil-p {
+    display: flex;
+  }
+  .catalog__p {
+    font-size: 16px;
+  }
+  .catalog__menu-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .mobil-a {
+    color: #222;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .mobil-a:hover {
+    color: #947053;
+  }
+  .mobil-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+@media (max-width: 1093px) {
+  .questions__shadow {
+    padding: 100px 40px 80px 40px;
+  }
+  .work {
+    padding: 0px 40px;
+  }
+  .questions__flex-buttons {
+    flex-direction: column;
+  }
+  .questions__shadow {
+    padding: 40px 40px 80px 40px;
+  }
+  .flex-buttons-text-p {
+    height: auto;
+    font-size: 15px;
+  }
+  .questions__flex-block {
+    align-items: center;
+    gap: 7px;
+  }
+  .flex-buttons-text-a {
+    font-size: 20px;
+  }
+  .flex-buttons__text {
+    margin-left: 20px;
+  }
+  .questions__h {
+    text-align: center;
+  }
+  .questions__p {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 908px) {
+  .welcome-img-shadow {
+    width: 700px;
+  }
+  .welcome-h {
+    font-size: 20px;
+  }
+  .welcome-img {
+    width: 700px;
+  }
+  .welcome-text-btn {
+    margin-left: -400px;
+    margin-top: -130px;
+  }
+  .work-btn {
+    width: 90px;
+    font-size: 12px;
+  }
+  .work-btn-active {
+    font-size: 12px;
+  }
+  .work-img {
+    width: 300px;
+  }
+  .work-img-shadow {
+    width: 300px;
+  }
+  .work-p {
+    font-size: 14px;
+  }
+  .work-text {
+    margin-left: -30px;
+    margin-top: 200px;
+  }
+  .footer-block__menu {
+    display: none;
+  }
+}
+@media (max-width: 716px) {
+  .work {
+    padding: 0px 20px;
+  }
+  .work-block-flex {
+    gap: 10px;
+  }
+  .questions__h {
+    font-size: 28px;
+  }
+  .questions__p {
+    font-size: 28px;
+  }
+  .welcome-img-shadow {
+    width: 500px;
+  }
+  .welcome-h {
+    font-size: 15px;
+  }
+  .welcome-text-btn {
+    margin-left: -200px;
+    margin-top: -110px;
+  }
+  .welcome-img {
+    width: 500px;
+  }
+}
+@media (max-width: 655px) {
+  footer {
+    padding: 90px 40px;
+  }
+  .work-flex-btn {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 516px) {
+  .welcome-img {
+    height: 200px;
+    width: 400px;
+  }
+  .welcome-text-btn {
+    margin-left: -70px;
+    margin-top: -150px;
+  }
+  .welcome-img-shadow {
+    display: none;
+  }
+  .welcome-h {
+    margin-top: 20px;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .footer-block__information,
+  .footer-bock__contacts {
+    display: none;
+  }
+  .footer-block__logo {
+    align-items: center;
+  }
+  .section-footer__flex {
+    justify-content: center;
+  }
+  .questions__flex-block_p {
+    font-size: 10px;
+  }
+}
