@@ -17,6 +17,9 @@ header {
   height: 100px;
   width: 100%;
 }
+.menu-icon{
+  display: none;
+}
 .header__flex {
   padding: 0 20px;
   display: flex;
@@ -492,5 +495,289 @@ footer {
   align-items: center;
   gap: 10px;
 }
-
 /*footer end*/
+
+@media (max-width: 1373px) {
+  .welcome__circle {
+    display: none;
+  }
+  .welcome-img {
+    width: 1000px;
+  }
+  .welcome-h {
+    font-size: 36px;
+  }
+  .welcome-text-btn {
+    margin-left: -460px;
+    margin-top: -380px;
+  }
+  .welcome-img-shadow {
+    width: 1000px;
+  }
+}
+@media (max-width: 1247px) {
+  .flex-buttons__text {
+    margin-left: 0px;
+  }
+  .header__catalog,
+  .header__menu,
+  .header__btn {
+    display: none;
+  }
+  .flex-buttons_btn {
+    display: block;
+  }
+  .menu-icon {
+    display: block;
+    width: 40px;
+    height: 30px;
+    position: relative;
+    border: none;
+    background-color: transparent;
+  }
+  .menu-icon__line {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #2e2f2e;
+  }
+  .menu-icon::after,
+  .menu-icon::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #2e2f2e;
+    position: absolute;
+    left: 0;
+  }
+  .menu-icon::after {
+    bottom: 0;
+    transition: transform 0.2s, bottom 0.2s 0.2s;
+  }
+  .menu-icon::before {
+    top: 0;
+    transition: transform 0.2s, top 0.2s 0.2s;
+  }
+
+  .menu__mobil {
+    display: none;
+    position: absolute;
+    top: 99px;
+    right: 0;
+    z-index: 100;
+    width: 389px;
+    height: 669px;
+    background: #f8f3ef;
+  }
+  .menu__mobil-active {
+    display: block;
+  }
+  .mobil-block-flex {
+    padding: 30px 30px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .mobil-p {
+    display: flex;
+  }
+  .catalog__p {
+    font-size: 16px;
+  }
+  .catalog__menu-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .mobil-a {
+    color: #222;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .mobil-a:hover {
+    color: #947053;
+  }
+  .mobil-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .section__board {
+    padding: 0px;
+  }
+  .questions__shadow {
+    padding: 100px 20px 80px 20px;
+  }
+  footer {
+    padding: 90px 20px;
+  }
+}
+@media (max-width: 1010px) {
+  .welcome-img {
+    width: 800px;
+  }
+  .welcome-h {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .welcome__p {
+    font-size: 12px;
+  }
+  .welcome__logo {
+    width: 30px;
+    height: 30px;
+  }
+  .welcom__flex-menu {
+    gap: 35px;
+    margin-bottom: 20px;
+  }
+  .welcome__btn-brown {
+    width: 207px;
+  }
+  .welcome-text-btn {
+    margin-left: -280px;
+    margin-top: -280px;
+  }
+  .welcome-img-shadow {
+    width: 800px;
+  }
+  .board-img {
+    width: 248px;
+    height: 248px;
+  }
+  .block-board {
+    width: 248px;
+  }
+}
+
+@media (max-width: 956px) {
+  .questions__flex-buttons {
+    flex-direction: column;
+    gap: 2px;
+  }
+  .questions__flex-block {
+    align-items: center;
+    gap: 0;
+  }
+  .questions__shadow {
+    padding: 20px 20px 20px 20px;
+  }
+  .flex-buttons-text-a {
+    font-size: 18px;
+  }
+  .flex-buttons-text-p {
+    width: auto;
+  }
+  .flex-buttons__text {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 806px) {
+  .welcome-img {
+    height: 400px;
+    width: 600px;
+  }
+  .welcome-text-btn {
+    margin-left: -100px;
+    margin-top: -330px;
+  }
+  .welcom__flex-menu {
+    gap: 15px;
+  }
+  .welcome-h {
+    font-size: 26px;
+  }
+  .welcome-img-shadow {
+    border-radius: 10%;
+    object-fit: cover;
+    height: 400px;
+    width: 600px;
+  }
+  .footer-block__menu {
+    display: none;
+  }
+}
+@media (max-width: 610px) {
+  .board-img {
+    width: 163px;
+    height: 163px;
+  }
+  .board-btn-flex {
+    flex-direction: column;
+    align-items: start;
+  }
+  .board-btn-order {
+    height: 35px;
+  }
+  .board-btn {
+    width: 136px;
+    height: 35px;
+  }
+  .block-board {
+    width: 163px;
+    height: 350px;
+  }
+  .welcome-img {
+    border-radius: 10%;
+    object-fit: cover;
+    height: 350px;
+    width: 375px;
+  }
+  .welcome-text {
+    font-size: 11px;
+  }
+  .welcome__btn-back {
+    font-size: 11px;
+  }
+  .welcome-text-btn {
+    gap: 10px;
+    margin-left: -40px;
+    margin-top: -290px;
+  }
+  .welcome-h {
+    font-size: 20px;
+  }
+  .welcome__p {
+    width: 110px;
+    text-align: center;
+  }
+  .welcome-img-shadow {
+    height: 350px;
+    width: 375px;
+  }
+  .questions__h {
+    text-align: center;
+    font-size: 24px;
+  }
+  .questions__p {
+    text-align: center;
+    font-size: 24px;
+    margin-left: 0px;
+  }
+  .questions__flex-block_p {
+    text-align: center;
+  }
+  .footer-block__information,
+  .footer-bock__contacts {
+    display: none;
+  }
+  .section-footer__flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-block__logo {
+    align-items: center;
+  }
+  footer {
+    height: 292px;
+  }
+  .menu__mobil {
+    width: 375px;
+    height: 569px;
+  }
+}
