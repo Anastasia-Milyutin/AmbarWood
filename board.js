@@ -8,3 +8,14 @@ btnCatalog.addEventListener('click', () => {
   }
 }
 )
+
+
+let btnMobil = document.querySelector('.menu-icon')
+let menuMobil = document.querySelector('.menu__mobil')
+btnMobil.addEventListener('click', () => {
+  if (menuMobil.style.display === "block") {
+    menuMobil.style.display = "none";
+  } else {
+    menuMobil.style.display = "block";
+}
+})
