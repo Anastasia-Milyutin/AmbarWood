@@ -26,3 +26,14 @@ btnMapMoscol.addEventListener("click", () => {
   btnMapMoscol.classList.add("map-btn-active");
   btnMapSpb.classList.remove("map-btn-active");
 });
+
+
+let btnMobil = document.querySelector('.menu-icon')
+let menuMobil = document.querySelector('.menu__mobil')
+btnMobil.addEventListener('click', () => {
+  if (menuMobil.style.display === "block") {
+    menuMobil.style.display = "none";
+  } else {
+    menuMobil.style.display = "block";
+}
+})
